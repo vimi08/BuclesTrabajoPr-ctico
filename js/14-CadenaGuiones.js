@@ -17,8 +17,9 @@ if (texto && texto.trim() !== "") {
       resultado += "-"; //  se agrega el guion
     }
   }
-  console.log("Texto con guiones: " + resultado);
-  pantalla.innerHTML = "Texto con guiones: " + resultado;
+  console.log("Texto con guiones : " + resultado);
+  pantalla.innerHTML = "Texto con guiones : " + resultado;
 } else {
-  alert("Debes introducir un texto válido.");
+  alert("Debes ingresar un texto válido.");
 }
+
